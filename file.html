@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        header{
+            background-color: #ccc;
+            padding: 10px;
+        }
+
+        section{
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        
+        #carousel img{
+            height: 300px;
+            width: 1366px;
+        }
+
+        #col{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>-Boostrap-</h1>
+        <h4>Segundo o meu entendimento</h4>
+        </div>
+    </header>
+    
+    <section id="col">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <h2>Col 1</h2>
+                    <img src="https://via.placeholder.com/200x200">
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <h2>Col 2</h2>
+                    <img src="https://via.placeholder.com/200x200">
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <h2>Col 3</h2>
+                    <img src="https://via.placeholder.com/200x200">
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section id="carousel">
+        <div class="container">
+            <h2>Carousel 1</h2>
+            <div id="carousel-exemple" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemple" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-exemple" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carousel-exemple" data-bs-slide-to="2" ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1548697143-6a9dc9d9d80f?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://e1.pxfuel.com/desktop-wallpaper/799/445/desktop-wallpaper-night-sky-mountain-black-white-backgrounds-dark-night-sky-background.jpg">
+                    </div>
+                </div>
+
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel-exemple" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel-exemple" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <h2>Card 1</h2>
+                    <div class="card text-bg-warning">
+                        <div class="card-header">
+                            <h3>title</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, optio accusantium ipsam corporis obcaecati cum ad odio, magni ipsum earum fugiat maiores. Expedita maxime commodi eveniet molestiae exercitationem deserunt ipsam?</h4>
+                        </div>
+                        <div class="card-footer">
+                            <h3>Footer</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <h2>Card 2</h2>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/200x200">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card exemple 2</h5>
+                            <h6 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, pariatur accusamus. Fugiat nesciunt quas iste saepe, in tempora optio fuga voluptates assumenda voluptate libero perspiciatis? Rerum voluptas aspernatur ea alias.</h6>
+                            <button type="button" class="btn btn-primary">card button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <h2>Card 3</h2>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/200x200" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Title</h3>
+                            <h6 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, est aliquam dignissimos laboriosam praesentium culpa rem repudiandae consectetur amet aperiam rerum doloribus? Quis dolores error modi corrupti, consectetur sit eum!</h6>
+                            <button type="button" class="btn btn-danger">Card button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
